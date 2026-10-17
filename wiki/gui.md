@@ -1,117 +1,59 @@
-# Albumus Audio Compiler - GUI Guide
+# GUI
 
-The Albumus GUI (`gui.py`) provides a simple, interactive interface to select project folders and run audio-related tasks such as compiling albums and clearing output. It offers visual feedback, customizable settings, and a categorized task panel.
+This historical URL remains available for existing bookmarks. Continue to the
+[Albumus Audio Compiler - GUI Guide](Albumus-Audio-Compiler-GUI-Guide.md).
 
----
+The original section headings below link to the same sections in that reference.
+
+## Albumus Audio Compiler - GUI Guide
+
+[Continue to this section](Albumus-Audio-Compiler-GUI-Guide.md#albumus-audio-compiler---gui-guide).
 
 ## 🚀 Launching the GUI
 
-To run the GUI:
-```bash
-python gui.py
-````
-
-Make sure the following requirements are met:
-
-* Python 3.9+
-* `customtkinter` installed
-* A valid `config/settings.json` exists (will be created if missing)
-
----
+[Continue to this section](Albumus-Audio-Compiler-GUI-Guide.md#-launching-the-gui).
 
 ## 🖼 GUI Features
 
+[Continue to this section](Albumus-Audio-Compiler-GUI-Guide.md#-gui-features).
+
 ### Project Directory Management
 
-* **Recent Directory Dropdown:**
-
-  * Select from previously used project directories.
-  * Automatically filters invalid paths.
-
-* **Browse Button (🔍):**
-
-  * Opens a file dialog to select a new project directory.
-  * Updates the dropdown and config settings automatically.
+[Continue to this section](Albumus-Audio-Compiler-GUI-Guide.md#project-directory-management).
 
 ### Task Buttons
 
-Tasks are grouped by category and displayed in horizontal scrollable sections. Each button:
-
-* Executes a predefined Python command.
-* Shows a tooltip describing what it does.
-* Logs output in the GUI and writes it to disk.
+[Continue to this section](Albumus-Audio-Compiler-GUI-Guide.md#task-buttons).
 
 #### Default Tasks:
 
-| Task            | Description                                           |
-| --------------- | ----------------------------------------------------- |
-| `compile_audio` | Compiles input files into tagged, multi-format albums |
-| `clear_output`  | Deletes the project's output directory (`out/`)       |
+[Continue to this section](Albumus-Audio-Compiler-GUI-Guide.md#default-tasks).
 
 ### Status Panel
 
-* Located at the bottom of the interface
-* Displays real-time task results or error messages
-* Color-coded: Green = success, Red = error
-
----
+[Continue to this section](Albumus-Audio-Compiler-GUI-Guide.md#status-panel).
 
 ## 🔧 Configuration
 
-The GUI references:
-
-* `config/settings.json` to track the current working project
-* Automatically updates:
-
-  * `dir`: currently selected project
-  * `dir_recent`: history of recent projects
-  * `dir_recent_max`: how many recent paths to remember
-
-If invalid directories are detected on launch, they are removed from the dropdown list automatically.
-
----
+[Continue to this section](Albumus-Audio-Compiler-GUI-Guide.md#-configuration).
 
 ## 🧪 Example Workflow
 
-1. Launch the app:
-
-   ```bash
-   python gui.py
-   ```
-
-2. Use the dropdown or browse button to choose a valid project folder.
-
-3. Click `compile_audio` to process the files in the `in/` directory.
-
-4. View results in the status panel and check the `_log/` directory for full logs.
-
-5. Use `clear_output` to delete generated output (`out/` folder) for a clean rebuild.
-
----
+[Continue to this section](Albumus-Audio-Compiler-GUI-Guide.md#-example-workflow).
 
 ## 🛠 Troubleshooting
 
-| Problem                      | Fix / Explanation                              |
-| ---------------------------- | ---------------------------------------------- |
-| "Config file not found"      | Ensure `config.json` exists in your project    |
-| "Invalid directory selected" | Must include `config.json` and an `in/` folder |
-| No output generated          | Make sure metadata JSON and audio files exist  |
-| GUI doesn’t launch           | Confirm `customtkinter` is installed properly  |
-
----
+[Continue to this section](Albumus-Audio-Compiler-GUI-Guide.md#-troubleshooting).
 
 ## 📁 Log Files
 
-All actions are logged in the `_log/` directory:
-
-* `gui.log`
-* `compile_audio.log`
-* `clear_output.log`
-
-These include timestamped entries, error reports, and command details.
-
----
+[Continue to this section](Albumus-Audio-Compiler-GUI-Guide.md#-log-files).
 
 ## ✅ Summary
 
-The GUI offers an easy-to-use interface for managing audio compilation projects without needing to use the terminal. It provides structure validation, task execution, logging, and feedback for a smooth user experience.
+[Continue to this section](Albumus-Audio-Compiler-GUI-Guide.md#-summary).
+
+## Compatibility Attribution
+
+Original documentation remains in the linked reference. Codex on behalf of
+`leviscustempris` preserved this URL during the naming migration.

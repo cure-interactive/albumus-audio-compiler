@@ -113,10 +113,10 @@ out/
 
 ## 📖 Wiki & Docs
 
-* [Setup Guide](./wiki/setup.md)
-* [GUI Reference](./wiki/gui.md)
-* [Command Line Tasks](./wiki/terminal.md)
-* [Configuration Reference](./wiki/config.md)
+* [Setup Guide](./wiki/Albumus-Audio-Compiler-Setup-Guide.md)
+* [GUI Reference](./wiki/Albumus-Audio-Compiler-GUI-Guide.md)
+* [Command Line Tasks](./wiki/Albumus-Audio-Compiler-Terminal-Guide.md)
+* [Configuration Reference](./wiki/Albumus-Audio-Compiler-Configuration-Reference.md)
 
 ---
 
@@ -129,3 +129,18 @@ Licensed under GNU GPL v3. Projects created using this tool **are not required**
 ## ⚠️ Disclaimer
 
 This tool is provided “as-is” with no warranty. Use at your own risk. Contributions are welcome!
+
+## Documentation Source and Compatibility
+
+Welcome to the albumus-audio-compiler wiki!
+
+Edit this README and the reference pages in `wiki/`. Hosted Config, GUI, Setup,
+and Terminal URLs remain as navigation pages for existing bookmarks. The four
+reference bodies are unchanged by this naming migration; it does not claim a
+new runtime validation of the original setup or compilation instructions.
+
+### Documentation Contributions
+
+- Original project documentation and attribution are preserved in Git history.
+- **Codex on behalf of `leviscustempris`:** Aligned page names, updated local
+  navigation, and preserved the original hosted URLs and section anchors.
